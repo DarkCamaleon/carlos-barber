@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "name": "peluqueria-carlos",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/peluqueria-carlos/browser",
@@ -30,15 +29,6 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
